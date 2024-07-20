@@ -1,0 +1,26 @@
+version: "3"
+
+volumes:
+  vol_dev_infra_mysql:
+
+networks:
+  net_dev_infra_mysql:
+    name: net_dev_infra_mysql
+
+services:
+  db_dev_infra_mysql:
+    container_name: db_dev_infra_mysql
+    image: mysql:latest
+    volumes:
+      - vol_dev_infra_mysql:/var/lib/mysql
+    environment:
+      MYSQL_DATABASE: "db_dev_infra_mysql"
+      MYSQL_USER: "admin"
+      MYSQL_PASSWORD: "admin"
+      MYSQL_ROOT_PASSWORD: "admin"
+    ports:
+      - "3306:3306"
+    expose:
+      - "3306"
+    networks:
+      - net_dev_infra_mysql
