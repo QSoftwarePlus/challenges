@@ -9,4 +9,4 @@ git switch -C my-new-branch
 git push
 ```
 
-## [Trainee level - API with NestJs](./Trainee-nestjs/README.md)
+## [React Native challenge](./react-native/README.md)

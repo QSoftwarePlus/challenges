@@ -55,8 +55,8 @@ react-native/
 
 To view the challenges, navigate to the folders:
 
-- [`react-native/junior`](./react-native/junior)
-- [`react-native/semi`](./react-native/semi)
-- [`react-native/senior`](./react-native/senior)
+- [`react-native/junior`](./junior/README.md)
+- [`react-native/semi`](./semi-senior/README.md)
+- [`react-native/senior`](./senior/README.md)
 
 ---
